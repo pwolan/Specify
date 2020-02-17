@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  background-color: #000;
+  width: 16px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #5a5a5a;
+  height: 20px;
+}
+
 body {
   font-family: Arial;
   color: white;
@@ -64,9 +73,6 @@ body {
   flex-grow: 1;
   min-height: 0;
   overflow: auto;
-}
-
-.songList table {
 }
 
 /* ##player */
